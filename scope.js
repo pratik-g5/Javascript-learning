@@ -1,4 +1,3 @@
-/*scope*/
 
 var a = 10;
 function b(){
@@ -13,7 +12,6 @@ function b(){
 
 
 b();
-
 /* console.log(d); */          /* -> ReferenceError: d is not defined */  
 
 
@@ -29,8 +27,8 @@ b();
 
     
     When the function c() is called it looks for var a in its own function first.
-    if not then it further goes to it's lexical parent i.e., function b but couldn't find 
-    hence it goes to the lexical parent of function b i.e., the global env.
-    All of this is called a 'Scope Chain'...
+    - if not then it further goes to it's lexical parent i.e., function b but couldn't find 
+    - hence it goes to the lexical parent of function b i.e., the global env.
+    - All of this is called a 'Scope Chain'...
 
  */
