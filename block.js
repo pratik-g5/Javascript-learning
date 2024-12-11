@@ -1,6 +1,7 @@
 /*  Block is also known as compound statement.
     - combining multiple statements together is called a block -> {}.
     - block is also a lexical scope and follows a lexical scop chain pattern.
+
     */
 
 if (true) console.log("true")
