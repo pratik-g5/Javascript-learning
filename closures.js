@@ -17,7 +17,7 @@ function x(){
     function y(){
         console.log(a);
     }
-     var a = 100;  //->> The value of a returend is 100 since the reference now moves to 100;
+     var a = 103;  //->> The value of a returend is 100 since the reference now moves to 100;
     return y;
 }
 var z = x();
