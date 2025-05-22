@@ -32,3 +32,14 @@ b();
     - All of this is called a 'Scope Chain'...
 
  */
+
+function m(){
+    let c = 100;
+    console.log(c);
+}
+function n(){
+    c = 101;
+    console.log(c);
+}
+m();
+n();

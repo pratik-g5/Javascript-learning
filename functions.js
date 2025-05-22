@@ -33,8 +33,10 @@ function l(q, w){     // q, w are the parameters of the function
 }
 l(2, 0);    // 2, 0 are the arguments passed to the function
 
-// First Class Functions  - first class citizens
-// ability to be used as values or arguemnts
+
+// First Class Functions  - first class citizens    -- functions can be passed inside another function
+// ability to be used as values or arguments
+
 
 
 // Arrow Functions
